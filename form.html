@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
     <title>Win a PC setup</title>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <h1>Win a full PC setup that is built by us</h1>
+   <header>
+        <h1>Win a full PC setup that is built by us</h1>
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="#parts">Parts</a>
+            <a href="form.html">Win a pc</a>
+        </nav>
+   </header>
+   <div>
     <p>
-      Fill out the form below for your chance to win a pc that is built by us
+      <strong>Fill out the form below for your chance to win a pc that is built by us
       but chosen by you. You will get to choose from mulitple options on parts
-      and how you want the setup to look.
+      and how you want the setup to look.</strong>
     </p>
-    <nav>
-      <a href="index.html#home">Home</a>
-      <a href="#parts">Parts</a>
-      <a href="form.html">Win a pc</a>
-    </nav>
+    </div>
+    
     <form method="post" action="https://formdump.codeinstitute.net/">
       <fieldset>
-        <legend>Your Details</legend>
+        <legend><strong>Your Details</strong></legend>
         <div>
           <label for="name">Your Name:</label>
           <input
@@ -92,9 +96,9 @@
             placeholder="Your Email"
           />
         </div>
-      </fieldset>
-      <fieldset>
-        <legend>Your Gaming Habits</legend>
+        </fieldset>
+        <fieldset>
+        <legend><strong>Your Gaming Habits</strong></legend>
         <div>
           <p>How many hours do you play each day in hours?</p>
           <input
@@ -133,6 +137,7 @@
           <input id="other" name="games" value="other" type="radio" />
           <label for="other">Other</label>
         </div>
+        <div>
         <p>Which platform do you use the most?</p>
         <input required id="pc" name="platform" value="pc" type="radio" />
         <label for="pc">PC</label>
@@ -148,11 +153,13 @@
 
         <input required id="other" name="platform" value="other" type="radio" />
         <label for="other">Other</label>
-      </fieldset>
-      <fieldset>
-        <legend>Your Feedback</legend>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Your Feedback</strong></legend>
         <label for-="feedback">How could we improve?</label>
-        <textarea id="feedback" rows="5" cols="50" name="feedback"></textarea>
+        <br>
+        <textarea id="feedback" rows="10" cols="100" name="feedback"></textarea>
       </fieldset>
       <button type="submit">Submit</button>
       <input type="reset" value="Reset " />
