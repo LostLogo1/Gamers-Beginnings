@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: aliceblue;
 }
 header {
     font-family:"Verdana", "arial" , "sans-serif" ;
@@ -14,4 +14,28 @@ a:hover {
 nav > a {
     padding: 0 10px;
     text-transform: uppercase;
+}
+
+form {
+    padding: 10px 30px;
+}
+div {
+    text-align: center;
+}
+fieldset {margin: 20px;}
+
+.button {
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   margin-left: 17px;
+}
+.reset {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+
 }
