@@ -1,4 +1,17 @@
-th,
-td {
-    border: 1px solid black
+body {
+    background-color: grey;
+}
+header {
+    font-family:"Verdana", "arial" , "sans-serif" ;
+    background-color: white;
+    text-align: center;
+    width: 99%;
+    border: 5px solid black;
+}
+a:hover {
+    color: orange;
+}
+nav > a {
+    padding: 0 10px;
+    text-transform: uppercase;
 }
