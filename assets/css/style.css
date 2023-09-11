@@ -12,19 +12,21 @@ body {
 }
 
 header {
-    
+
     background-color: white;
     text-align: center;
     width: 100%;
     border: 5px solid black;
 }
 
-h1, h3 {
+h1, h2, h3 {
     font-family: impact, arial;
     letter-spacing: 1.5px;
     margin: 5px;
 }
-main {background-color: aliceblue;
+
+main {
+    background-color: aliceblue;
 
 }
 
@@ -45,7 +47,8 @@ footer>i {
     margin: 20px;
 
 }
-nav>a:hover {
+
+nav:hover {
     color: orange;
 }
 
@@ -93,8 +96,18 @@ fieldset {
 }
 
 #text {
-    background-color: rgb(120, 120, 120, .6);
+    background-color: rgba(50, 50, 50, 0.6);
     padding: 5px 20px;
+
+}
+
+#part-gallery {
+    background-color: rgb(50, 50, 50, .6);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    flex-basis: 350px;
+    flex-grow: 1;
 
 }
 
@@ -104,3 +117,4 @@ fieldset {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
