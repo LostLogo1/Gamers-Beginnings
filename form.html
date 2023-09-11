@@ -111,6 +111,7 @@
             placeholder="EX: 10"
           />
         </div>
+        <br>
         <div>
           <p>What type of game do you play the most?</p>
           <input id="action" name="games" value="action" type="radio" />
@@ -139,6 +140,7 @@
           <input id="other" name="games" value="other" type="radio" />
           <label for="other">Other</label>
         </div>
+        <br>
         <div>
         <p>Which platform do you use the most?</p>
         <input required id="pc" name="platform" value="pc" type="radio" />
@@ -157,15 +159,17 @@
         <label for="other">Other</label>
         </div>
     </fieldset>
+    <div>
     <fieldset>
         <legend><strong>Your Feedback</strong></legend>
         <label for-="feedback">How could we improve?</label>
         <br>
-        <textarea id="feedback" rows="10" cols="100" name="feedback"></textarea>
+        <textarea id="feedback" name="feedback" style="width: 300px; height: 100px;"></textarea>
       </fieldset>
       <button class="button" type="submit">Submit</button>
       <input class="reset" type="reset" value="Reset " />
     </form>
+    </div>
     </main>
     <footer>
         <i class="fa-brands fa-discord fa-2xl" style="color: #ffffff;"></i>
