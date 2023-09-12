@@ -75,14 +75,18 @@
     </div>
     <br>
     <br>
-      <form>
+      <form method="post" action="https://formdump.codeinstitute.net/">
         <div>
-        <fieldset>
+         <fieldset>
           <legend>Question</legend>
-          <label for="question">Ask us a question:</label>
-          <br>
-          <textarea id="question" rows="5" cols="50" name="question"></textarea>
-        </fieldset>
+                <label for="email">Your Email:</label>
+                <input required type="email" id="email" name="email" placeholder="Your Email" />
+                <br>
+                <br>
+                <label for="question">Ask us a question:</label>
+                <br>
+                <textarea required id="question" rows="5" cols="50" name="question"></textarea>
+          </fieldset>
         </div>
         <div>
         <button class="button" type="submit">Submit Question</button>
