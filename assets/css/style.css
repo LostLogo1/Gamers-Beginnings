@@ -19,20 +19,21 @@ header {
     border: 5px solid black;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: impact, arial;
+    letter-spacing: 1.5px;
+    margin: 5px;
+}
+
+h2 {
+    font-family: "tahoma", "arial", "sans-serif";
     letter-spacing: 1.5px;
     margin: 5px;
 }
 
 main {
     background-color: aliceblue;
-
-}
-
-footer {
-    background-color: orange;
-    height: 40px;
+    flex: 1 0 auto;
 }
 
 .social-links {
@@ -43,15 +44,6 @@ footer {
     list-style-type: none;
 }
 
-footer>i {
-    margin: 20px;
-
-}
-
-nav:hover {
-    color: orange;
-}
-
 nav {
     margin: 10px;
 }
@@ -60,6 +52,10 @@ nav>a {
     padding: 0 10px;
     text-transform: uppercase;
     margin: 0 10px;
+}
+
+nav>a:hover {
+    color: orange;
 }
 
 form {
@@ -107,12 +103,11 @@ fieldset {
 }
 
 #gallery-item {
+    color: white;
     background-color: rgb(50, 50, 50, .6);
     padding: 5px;
     margin: 5px;
     text-align: center;
-    flex-basis: 350px;
-    flex-grow: 1;
 }
 
 .section {
@@ -122,3 +117,31 @@ fieldset {
     background-size: 100% 100%;
 }
 
+@media screen and (max-width: 800px) {
+    part-gallery {
+        column-count: 1;
+        column-gap: 1;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    part-gallery {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    part-gallery {
+        column-count: 3;
+    }
+}
+
+footer {
+    background-color: orange;
+    height: 40px;
+}
+
+footer>i {
+    margin: 20px;
+
+}
