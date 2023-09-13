@@ -99,7 +99,9 @@ fieldset {
 
 #part-gallery {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 #gallery-item {
