@@ -135,6 +135,12 @@ label {
     text-align: center;
 }
 
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url("../images/gaming-setup.jpg") no-repeat center center/cover;
+}
+
 .section {
     color: white;
     background: url("../images/pc-case.jpg");
