@@ -89,6 +89,10 @@ textarea {
     border-radius: 5px;
 }
 
+label {
+    margin-right: 10px;
+}
+
 .button {
     background-color: black;
     color: white;
