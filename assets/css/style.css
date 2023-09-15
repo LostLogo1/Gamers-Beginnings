@@ -115,7 +115,7 @@ label {
 
 }
 
-#text {
+.text {
     background-color: rgba(50, 50, 50, 0.6);
     padding: 5px 20px;
 
@@ -149,12 +149,17 @@ label {
     background: url("../images/gaming-setup.jpg") no-repeat center center/cover;
 }
 
-.section {
+#section {
     color: white;
     background: url("../images/pc-case.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 10px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
 }
 
 @media screen and (max-width: 800px) {
