@@ -128,7 +128,7 @@ label {
     flex-basis: auto;
 }
 
-#gallery-item {
+.gallery-item {
     flex-basis: 30%;
     flex-grow: 1;
     color: white;
@@ -138,8 +138,8 @@ label {
     text-align: center;
 }
 
-#gallery-item img {
-    max-width: auto;
+.gallery-item img {
+    width: auto;
     height: 400px;
 }
 
