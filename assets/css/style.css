@@ -25,7 +25,8 @@ h1 {
     margin: 5px;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: "tahoma", "arial", "sans-serif";
     letter-spacing: 1.5px;
     margin: 5px;
@@ -59,7 +60,9 @@ nav>a:hover {
 }
 
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
     color: red;
     outline: 0;
     text-decoration: none;
@@ -135,8 +138,13 @@ label {
     text-align: center;
 }
 
+#gallery-item img {
+    max-width: auto;
+    height: 400px;
+}
+
 #hero {
-    height: 700px;
+    height: 500px;
     width: 100%;
     background: url("../images/gaming-setup.jpg") no-repeat center center/cover;
 }
@@ -150,20 +158,19 @@ label {
 }
 
 @media screen and (max-width: 800px) {
-    part-gallery {
+    gallery-item {
         column-count: 1;
-        column-gap: 1;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
-    part-gallery {
+    gallery-item {
         column-count: 2;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    part-gallery {
+    gallery-item {
         column-count: 3;
     }
 }
