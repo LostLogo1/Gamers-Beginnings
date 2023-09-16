@@ -148,6 +148,8 @@ This site was deployed onto Github Pages.
 
 ## Content 
 All of the code was written by myself but using the code institute learning materials and the love running code as sources. With the use of (https://stackoverflow.com/) and (https://www.w3schools.com/) to try to answer any questions or questions that other people have posted to clear any confustion that i had.
+
+Given to me by my mentor Luke, he has had permission to share (https://github.com/adrianskelton/Projecto1/blob/main/README.md) and i have used this to give me ideas for README.md.
  
 
 ## Media
