@@ -68,6 +68,8 @@ This is featured on all pages with the links to the home page, parts list and wi
 
  - **Home page**
 The home page has a small area of text to explain what the site is about the aims it hopes to acheive, then it has a useful link for users to be able to make sure that all the parts they have picked will be compatible. It has the main three social media links that are not apart of the footer, this will be valuble to the user as this is one of the main ways for the site to make a community on platforms and have activities on these platforms. More info about these would be found by clicking the links.
+
+![Home page](assets/images/readme-images/index.png)
  
  -**Images for parts**
  Will provide a visual checklist for users to make sure they have all parts needed to build setup. 
@@ -83,6 +85,12 @@ This allows users to sign up for a competiton to win a pc by asking users about 
  I used three icons for the social media; discord, facebook and instragram. These icons are sourced from font awesome, the colors were changed to white to contrast the orange background so they are easier to see.
  
  ![Footer](assets/images/readme-images/footer.png)
+
+ **Future features to implement**
+ Over time i would update the parts page to have clickable images for each one that would open in a new page that would go into greater details about the part.
+
+ **Accessibility**
+ For screen readers i have used the aria-labels and semantic elements for an easier experience of the website.
 
 # Testing
 
