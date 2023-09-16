@@ -62,21 +62,25 @@ Draw.io was used to make the wireframes.
 # Features
 
  -**Nav bar**
+ 
 This is featured on all pages with the links to the home page, parts list and win a pc form. This is the same on each page to allow ease of use.
 
 ![Nav bar](assets/images/readme-images/navbar.png)
 
  - **Home page**
+
 The home page has a small area of text to explain what the site is about the aims it hopes to acheive, then it has a useful link for users to be able to make sure that all the parts they have picked will be compatible. It has the main three social media links that are not apart of the footer, this will be valuble to the user as this is one of the main ways for the site to make a community on platforms and have activities on these platforms. More info about these would be found by clicking the links.
 
 ![Home page](assets/images/readme-images/index.png)
  
  -**Images for parts**
- Will provide a visual checklist for users to make sure they have all parts needed to build setup. 
+
+Will provide a visual checklist for users to make sure they have all parts needed to build setup. 
  
- ![Parts page](assets/images/readme-images/parts.png)
+![Parts page](assets/images/readme-images/parts.png)
  
  - **Win a pc form**
+
 This allows users to sign up for a competiton to win a pc by asking users about themselves and what they do. There is a feedback area for them to help make sure that the site is helpful and able to add anything that may have been missed or redo content.
 
 ![Form full view](assets/images/readme-images/form-fullveiw.png)
