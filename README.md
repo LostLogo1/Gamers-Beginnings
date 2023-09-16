@@ -12,6 +12,7 @@ Users will be able find about the website and its goals, link to part picker to 
 - [Contents](#contents)
   - [Target Audience](#target-audience)
   - [Design](#design)
+  - [Wireframes](#wireframes)
 - [Features](#features)
 - [Testing](#testing)
   - [Validation](#validation)
@@ -42,7 +43,7 @@ The target audience for the site is anyone of any age and gender that wishes to 
 - The footer is orange as it contrasts the main body well with white icons for good visibility for them.
 ![Colors](assets/images/readme-images/colors.png)
  
-**Wireframe**
+## Wireframes
 
 **Home**
 
@@ -62,6 +63,7 @@ Draw.io was used to make the wireframes.
 
  -**Nav bar**
 This is featured on all pages with the links to the home page, parts list and win a pc form. This is the same on each page to allow ease of use.
+
 ![Nav bar](assets/images/readme-images/navbar.png)
 
  - **Home page**
@@ -69,14 +71,17 @@ The home page has a small area of text to explain what the site is about the aim
  
  -**Images for parts**
  Will provide a visual checklist for users to make sure they have all parts needed to build setup. 
+ 
  ![Parts page](assets/images/readme-images/parts.png)
  
  - **Win a pc form**
 This allows users to sign up for a competiton to win a pc by asking users about themselves and what they do. There is a feedback area for them to help make sure that the site is helpful and able to add anything that may have been missed or redo content.
+
 ![Form full view](assets/images/readme-images/form-fullveiw.png)
  
  -**Footer**
  I used three icons for the social media; discord, facebook and instragram. These icons are sourced from font awesome, the colors were changed to white to contrast the orange background so they are easier to see.
+ 
  ![Footer](assets/images/readme-images/footer.png)
 
 # Testing
