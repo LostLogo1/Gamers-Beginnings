@@ -43,13 +43,17 @@ The target audience for the site is anyone of any age and gender that wishes to 
 ![Colors](assets/images/readme-images/colors.png)
  
 **Wireframe**
+
 **Home**
+
 ![wireframe home](assets/images/readme-images/wireframe1.png)
 
 **Parts list**
+
 ![Wireframe parts](assets/images/readme-images/wireframe2.png)
 
 **Win a PC**
+
 ![Wireframe form](assets/images/readme-images/wireframe3.png)
 
 Draw.io was used to make the wireframes.
@@ -89,12 +93,15 @@ This allows users to sign up for a competiton to win a pc by asking users about 
 I used Firefox's lighthouse extenstion to check the performance of the site. 
 
 **Index page**
+
 ![Index lighthouse](assets/images/readme-images/home-page.png)
 
 **Parts page**
+
 ![Parts lighthouse](assets/images/readme-images/parts-list.png)
 
 **Win a pc page**
+
 ![form lighthouse](assets/images/readme-images/form.png)
 
 ## Testing using devices
